@@ -7,19 +7,20 @@ Simple sample for unit test Azure Functions with Jest.
 ```
 $ git clone https://github.com/y-hatano-github/AzureFunctionJestSample.git
 $ cd AzureFunctionJestSample/
+$ npm install
 $ npm test
 ```
 
-## Steps for build this Azure function
-I did following steps and it worked.  
-### 1.Create function
+## Steps for running unit test for Azure functions
+To create this sample, I did following steps and it worked.  
+### 1st step : Create function
 ```
 $ func init AzureFunctionJestSample --typescript
 $ cd AzureFunctionJestSample/
 $ func new --name HttpJestSample --template "HTTP trigger" --authlevel "anonymous"
 ```
 
-### 2.Install dependencies
+### 2nd step : Install dependencies
 ```
 $ npm install azure-functions-core-tools@3
 $ npm i jest @types/jest ts-jest -D
@@ -28,7 +29,7 @@ $ npm install npm-run-all --save-dev
 $ npx jest --init
 ```
 
-### 3.Modify files.
+### 3rd step : Modify files.
 jest.config.ts  
 
 ```
@@ -55,10 +56,11 @@ package.json
   "test": "jest"
 }
 ```
-### 4.write test code
-`./HttpJestSample/index.test.ts`
-
-### 5.Run test
+### 4th step : Write sample API
+[`./HttpJestSample/index.ts`](./HttpJestSample/index.ts "index.ts")
+### 5th step : Write test for sample API
+[`./HttpJestSample/index.test.ts`](./HttpJestSample/index.test.ts "index.test.ts")
+### 6th step : Run test
 ```
 npm test
 ```
