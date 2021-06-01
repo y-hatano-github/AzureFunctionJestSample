@@ -3,6 +3,13 @@
 This is a note to myself about unit tests in Azure functions with Jest. 
 Simple sample for unit test Azure Functions with Jest.  
 
+## Quick start
+```
+$ git clone https://github.com/y-hatano-github/AzureFunctionJestSample.git
+$ cd AzureFunctionJestSample/
+$ npm test
+```
+
 ## Steps for build this Azure function
 I did following steps and it worked.  
 ### 1.Create function
