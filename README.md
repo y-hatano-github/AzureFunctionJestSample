@@ -10,7 +10,6 @@ I did following steps and it worked.
 $ func init AzureFunctionJestSample --typescript
 $ cd AzureFunctionJestSample/
 $ func new --name HttpJestSample --template "HTTP trigger" --authlevel "anonymous"
-$ npm install
 ```
 
 ### 2.Install dependencies
