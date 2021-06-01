@@ -1,6 +1,6 @@
 # Azure Functions unit test with Jest
 ## What is this?
-This is note for myself.  
+This is a note to myself about unit tests in Azure functions with Jest. 
 Simple sample for unit test Azure Functions with Jest.  
 
 ## Steps for build this Azure function
