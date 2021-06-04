@@ -42,7 +42,7 @@ export default {
 	testMatch: [
 		"**/?(*.)+(test).ts?(x)"
 	],
-	"transform": {
+	transform: {
 		"^.+\.(ts|tsx)$": "ts-jest"
 	}
 };

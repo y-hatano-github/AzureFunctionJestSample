@@ -181,7 +181,7 @@ export default {
   //   "/node_modules/",
   //   "\\.pnp\\.[^\\/]+$"
   // ],
-	"transform": {
+	transform: {
 		"^.+\.(ts|tsx)$": "ts-jest"
 	}
   // An array of regexp pattern strings that are matched against all modules before the module loader will automatically return a mock for them
