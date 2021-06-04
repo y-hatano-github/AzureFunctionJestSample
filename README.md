@@ -1,6 +1,6 @@
 # Azure Functions unit test with Jest
 ## What is this?
-This is a note to myself for unit testing Azure functions written in typescript using Jest.  
+This is a note to myself for unit testing Azure functions written in typescript with Jest.  
 Simple sample for unit test Azure Functions with Jest.  
 
 ## Quick start
