@@ -60,7 +60,19 @@ package.json
 [`./HttpJestSample/index.ts`](./HttpJestSample/index.ts "index.ts")
 ### 5th step : Write test for sample API
 [`./HttpJestSample/index.test.ts`](./HttpJestSample/index.test.ts "index.test.ts")
-### 6th step : Run test
+### 6th step : Start API/Run test
+#### Start API
+```
+npm start
+```
+
+Access following URL.
+```
+http://localhost:7071/api/HttpJestSample?name=hoge
+```
+
+
+#### Run test
 ```
 npm test
 ```
