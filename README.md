@@ -76,3 +76,42 @@ http://localhost:7071/api/HttpJestSample?name=hoge
 ```
 npm test
 ```
+
+### 追記
+#### 2nd step : Install dependencies　について
+`npx jest --init`後について、全てデフォルトで先に進めます。一応、聞かれる内容を残しておきます
+
+```
+The following questions will help Jest to create a suitable configuration for your project
+
+? Would you like to use Jest when running "test" script in "package.json"? › (Y/n)
+
+
+? Would you like to use Typescript for the configuration file? › (y/N)
+
+? Choose the test environment that will be used for testing › - Use arrow-keys. Return to submit.
+❯   node
+    jsdom (browser-like)
+
+
+? Do you want Jest to add coverage reports? › (y/N)
+
+? Which provider should be used to instrument code for coverage? › - Use arrow-keys. Return to submit.
+❯   v8
+    babel
+
+? Automatically clear mock calls, instances, contexts and results before every test? › (y/N)
+
+```
+
+
+## 3rd step : Modify files　について
+デフォルトで存在してるのはjsファイル（jest.config.js）ですが、このファイルを削除して新たにjest.config.tsファイルを作成する必要があります。  
+jest.config.jsの方を生かしたい場合はjest.config.tsは作成しないでください（名前が競合してテストが動きません）
+
+## 5th step : Write test for sample API　について
+./HttpJestSample/index.test.ts  
+githubのコードをそのままコピペします。
+
+
+
